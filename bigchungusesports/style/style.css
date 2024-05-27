@@ -39,6 +39,10 @@ h1 {
     margin-left: 10px;
 }
 
+.nav-link {
+    padding-left: 8px;
+}
+
 .team-pic {
     background-image: url('../images/team.png');
     background-size: 100%;
