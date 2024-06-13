@@ -265,3 +265,44 @@ h1 {
         position: relative;
     }
 }
+
+:root {
+    --square-size: 15px;
+    --square-gap: 5px;
+}
+
+.graph {
+    display: inline-grid;
+    grid-template-columns: auto 1fr;
+    padding: 20px;
+    border: 1px #e1e4e8 solid;
+    margin: 20px;
+}
+
+.seats {
+    margin: 0;
+    padding: 0;
+
+    display: grid;
+    grid-gap: var(--square-gap);
+    grid-template-columns: repeat(19, var(--square-size));
+    grid-auto-flow: row;
+    grid-auto-rows: var(--square-size);
+}
+
+.seats li {
+    list-style-type:none;
+    background-color: transparent;
+}
+
+.seats li[data-level="1"] {
+    background-color: #ebedf0;
+}
+
+.seats li[data-level="1"]:hover {
+    background-color: #FFCCE8;
+}
+
+.seats li[data-level="2"] {
+    background-color: #FF008C;
+}
