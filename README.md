@@ -8,7 +8,7 @@ To publish a Docker image, you must first authenticate yourself.
 
 run
 ``` shell
-docker login  -u bigchungusesports
+docker login -u bigchungusesports
 ```
 
 You'll be prompted to enter a password. Your password will be provided to you by the administrator.
