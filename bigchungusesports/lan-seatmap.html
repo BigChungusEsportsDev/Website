@@ -545,7 +545,7 @@
               infoText.innerText = "Seat Holder: " + seat.title;
             }
             else {
-              infoText.innerText = "This seat is empty";
+              infoText.innerHTML = "This seat is empty</br></br>If you want to reserve this seat, contact our admins on the <a href='https://discord.gg/NSpxjnYhmD' target='_blank'>Discord server</a>.";
             }
             infoHeader.innerText = "Seat: " + seat.id;  
             infoBox.style.display = 'block';
