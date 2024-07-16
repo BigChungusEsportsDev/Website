@@ -1,14 +1,22 @@
 <!doctype html>
 <html lang="en">
-<head>
+  <head>
+    <script
+      defer
+      src="https://stats.caliv.ch/statistics.js"
+      data-website-id="2cccf301-f9bc-4465-a78a-91da3f39c8a0"
+    ></script>
 
     <!-- Meta tags -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
 
     <!-- Style sheets -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style/style.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/style.css" />
 
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
@@ -17,416 +25,550 @@
     <title>BigChungus esports</title>
 
     <!-- Icon -->
-    <link rel="icon" href="images/logos/logo-pink.png">
-</head>
-<body>
-
+    <link rel="icon" href="images/logos/logo-pink.png" />
+  </head>
+  <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
-        <a class="navbar-brand" href="../index.html">
-            <img src="images/logos/logo-pink.png" alt="Logo" class="rounded-pill logo">
-        </a>
-        <a class="navbar-brand text-pixel" href="../index.html">BigChungus esports</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="../index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="team.html">Team</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="sponsors.html">Sponsors</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="news.html">News</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="merch.html">Merch</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <button class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        LAN
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="lan-info.html">General Info</a>
-                        <a class="dropdown-item" href="lan-tournaments.html">Tournaments</a>
-                        <a class="dropdown-item" href="lan-seatmap.html">Seatmap</a>
-                        <a class="dropdown-item" href="lan-tickets.html">Tickets</a>
-                        <a class="dropdown-item" href="lan-visitors.html">Visitor Tickets</a>
-                    </div>
-                </li>
-            </ul>
-        </div>
+      <a class="navbar-brand" href="../index.html">
+        <img
+          src="images/logos/logo-pink.png"
+          alt="Logo"
+          class="rounded-pill logo"
+        />
+      </a>
+      <a class="navbar-brand text-pixel" href="../index.html"
+        >BigChungus esports</a
+      >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#collapsibleNavbar"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="team.html">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sponsors.html">Sponsors</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="news.html">News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="merch.html">Merch</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item dropdown">
+            <button
+              class="nav-link dropdown-toggle"
+              id="navbarDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              LAN
+            </button>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="lan-info.html">General Info</a>
+              <a class="dropdown-item" href="lan-tournaments.html"
+                >Tournaments</a
+              >
+              <a class="dropdown-item" href="lan-seatmap.html">Seatmap</a>
+              <a class="dropdown-item" href="lan-tickets.html">Tickets</a>
+            </div>
+          </li>
+        </ul>
+      </div>
     </nav>
 
     <!-- Main body -->
     <div class="container p-5 mt-5 pt-3 pb-3 bg-dark text-white">
-        <div class="container p-3 bg-dark text-center">
-            <h1>Team</h1>
-            <p>Get to know our esports expe... well... our team members!</p>
+      <div class="container p-3 bg-dark text-center">
+        <h1>Team</h1>
+        <p>Get to know our esports expe... well... our team members!</p>
+      </div>
+      <div class="container p-3 bg-dark mb-0 pb-0 text-center">
+        <h2 class="mb-4">Executive board</h2>
+
+        <!-- Player card with 2 pictures-->
+        <div class="player-card">
+          <div class="profile-pic">
+            <img
+              class="profile-pic-main"
+              src="images/pics/t1ger.png"
+              height="150"
+              width="150"
+            />
+            <img
+              class="profile-pic-alt"
+              src="images/pics/t1ger-alt.png"
+              height="150"
+              width="150"
+            />
+          </div>
+          <p class="player-name">T1geR</p>
+          <p class="player-status">Daddy chungus</p>
+          <p class="player-description">
+            Has once accidentally been called beer. You won't see him drinking
+            water at the lan. Jägermeister is his blood type. Sometimes acts
+            like he does stuff and calls himself president of BCH.
+          </p>
         </div>
-        <div class="container p-3 bg-dark mb-0 pb-0 text-center">
-            <h2 class="mb-4">Executive board</h2>
 
-            <!-- Player card with 2 pictures-->
-            <div class="player-card">
-                <div class="profile-pic">
-                    <img class="profile-pic-main" src="images/pics/t1ger.png" height="150" width="150" />
-                    <img class="profile-pic-alt" src="images/pics/t1ger-alt.png" height="150" width="150" />
-                </div>
-                <p class="player-name">T1geR</p>
-                <p class="player-status">Daddy chungus</p>
-                <p class="player-description">
-                    Has once accidentally been called beer. You won't see him drinking water at the lan. Jägermeister is his blood type. Sometimes acts like he does stuff and calls himself president of BCH.
-                </p>
-            </div>
-
-            <!-- Player card with 2 pictures-->
-            <div class="player-card">
-                <div class="profile-pic">
-                    <img class="profile-pic-main" src="images/pics/gnerfedurf.png" height="150" width="150" />
-                    <img class="profile-pic-alt" src="images/pics/gnerfedurf-alt.png" height="150" width="150" />
-                </div>
-                <p class="player-name">Gnerfedurf</p>
-                <p class="player-status">Ingame heal chungus</p>
-                <p class="player-description">
-                    His first hobby is creating games and his second hobby is talking about his created games. Always awake. Your partner in crime for every kind of shenanigans. Looks hotter in the Annie cosplay than Gnoblin.
-                </p>
-            </div>
-
-            <!-- Player card default -->
-            <div class="player-card">
-                <div class="profile-pic">
-                    <img src="images/pics/tlex.png" height="150" width="150" />
-                </div>
-                <p class="player-name">T-Lex</p>
-                <p class="player-status">IRL heal chungus</p>
-                <p class="player-description">
-                    Never stops on a loss, even when the game is Baldur's Gate 3. After a long night of gaming, she likes her breakfast fresh from the 3D printer. She also protocols all the BigChungus meetings, as chaotic as they may be.
-                </p>
-            </div>
-
-            <!-- Player card default -->
-            <div class="player-card">
-                <div class="profile-pic">
-                    <img src="images/pics/kochchefpablo.png" height="150" width="150" />
-                </div>
-                <p class="player-name">Kochchef Pablo</p>
-                <p class="player-status">Cook chungus / gossip chungus</p>
-                <p class="player-description">
-                    Makes sure Elibeli is happy by cooking for him. Also ask him for anything, he won't say no. Be wary, our cook loves (spilling) tea ;) His excel sheets have made people horny before.
-                </p>
-            </div>
-
-            <!-- Player card default -->
-            <div class="player-card">
-                <div class="profile-pic">
-                    <img class="profile-pic-main" src="images/pics/gnoblin.png" height="150" width="150" />
-                    <img class="profile-pic-alt" src="images/pics/gnoblin-alt.png" height="150" width="150" />
-                </div>
-                <p class="player-name">Gnoblin</p>
-                <p class="player-status">Owns all the chungi</p>
-                <p class="player-description">
-                    Most quiet person at every lan. Carries T1gers Jägermeister and sometimes people on her back. IRL Goblin. Loves Kochchef Pablo's Quaestorate documents. Best flunky ball player.
-                </p>
-            </div>
-
-            <!-- Player card default -->
-            <div class="player-card">
-                <div class="profile-pic">
-                    <img src="images/pics/elibeli.png" height="150" width="150" />
-                </div>
-                <p class="player-name">Elibeli</p>
-                <p class="player-status">Good chungus</p>
-                <p class="player-description">
-                    When angry, give him snacks. Low bloodsugar is his worst enemy. Also you'll easily recognize him at the lan playing No mans sky. His PC has a built-in beverage cooling system.
-                </p>
-            </div>
-
-            <!-- Player card with 2 pictures-->
-            <div class="player-card">
-                <div class="profile-pic">
-                    <img class="profile-pic-main" src="images/pics/kosekans.png" height="150" width="150" />
-                    <img class="profile-pic-alt" src="images/pics/kosekans-alt.png" height="150" width="150" />
-                </div>
-                <p class="player-name">Kosekans</p>
-                <p class="player-status">Chungus of the flies</p>
-                <p class="player-description">
-                    Ask him for a velo, although you might be surprised if it doesn't have wheels. Don't scare him, or your ears may fall off. Never ask him about his Fajita filling at the founding assembly.
-                </p>
-            </div>
+        <!-- Player card with 2 pictures-->
+        <div class="player-card">
+          <div class="profile-pic">
+            <img
+              class="profile-pic-main"
+              src="images/pics/gnerfedurf.png"
+              height="150"
+              width="150"
+            />
+            <img
+              class="profile-pic-alt"
+              src="images/pics/gnerfedurf-alt.png"
+              height="150"
+              width="150"
+            />
+          </div>
+          <p class="player-name">Gnerfedurf</p>
+          <p class="player-status">Ingame heal chungus</p>
+          <p class="player-description">
+            His first hobby is creating games and his second hobby is talking
+            about his created games. Always awake. Your partner in crime for
+            every kind of shenanigans. Looks hotter in the Annie cosplay than
+            Gnoblin.
+          </p>
         </div>
-        <div class="container p-3 bg-dark mb-0 pb-0 mt-0 text-center">
-            <h2 class="mb-4">Gamers</h2>
 
-            <!-- Player card default -->
-            <div class="player-card">
-                <div class="profile-pic">
-                    <img src="images/pics/default.png" height="150" width="150" />
-                </div>
-                <p class="player-name">Akiramiku</p>
-                <p class="player-status">New Chungus</p>
-                <p class="player-description">
-                    Akiramiku is one of the new members who joined BigChungus esports in 2024!
-                </p>
-            </div>
-
-            <!-- Player card default -->
-            <div class="player-card">
-                <div class="profile-pic">
-                    <img src="images/pics/default.png" height="150" width="150" />
-                </div>
-                <p class="player-name">AnnaLostInSpace</p>
-                <p class="player-status">New Chungus</p>
-                <p class="player-description">
-                    AnnaLostInSpace is one of the new members who joined BigChungus esports in 2024!
-                </p>
-            </div>
-
-            <!-- Player card default -->
-            <div class="player-card">
-                <div class="profile-pic">
-                    <img src="images/pics/default.png" height="150" width="150" />
-                </div>
-                <p class="player-name">Chigi</p>
-                <p class="player-status">New Chungus</p>
-                <p class="player-description">
-                    Chigi is one of the new members who joined BigChungus esports in 2024!
-                </p>
-            </div>
-
-            <!-- Player card default -->
-            <div class="player-card">
-                <div class="profile-pic">
-                    <img src="images/pics/default.png" height="150" width="150" />
-                </div>
-                <p class="player-name">Dinschki</p>
-                <p class="player-status">Ball chungus</p>
-                <p class="player-description">
-                    By far the most experienced gamer on our roster. Don't drink café de Paris if she offers it to you!
-                </p>
-            </div>
-
-            <!-- Player card default -->
-            <div class="player-card">
-                <div class="profile-pic">
-                    <img src="images/pics/default.png" height="150" width="150" />
-                </div>
-                <p class="player-name">Endergnar</p>
-                <p class="player-status">Horse chungus</p>
-                <p class="player-description">
-                    Best known for hacking his schools website. Has never been to a lan but we love him anyways.
-                </p>
-            </div>
-
-            <!-- Player card default -->
-            <div class="player-card">
-                <div class="profile-pic">
-                    <img src="images/pics/default.png" height="150" width="150" />
-                </div>
-                <p class="player-name">Ewokli</p>
-                <p class="player-status">New Chungus</p>
-                <p class="player-description">
-                    Ewokli is one of the new members who joined BigChungus esports in 2024!
-                </p>
-            </div>
-
-            <!-- Player card with 2 pictures-->
-            <div class="player-card">
-                <div class="profile-pic">
-                    <img class="profile-pic-main" src="images/pics/hideonbueschli.png" height="150" width="150" />
-                    <img class="profile-pic-alt" src="images/pics/hideonbueschli-alt.png" height="150" width="150" />
-                </div>
-                <p class="player-name">Hide on Büschli</p>
-                <p class="player-status">Ginger chungus</p>
-                <p class="player-description">
-                    Biggest enjoyer of spicy food. He has a big snake ;) (her name is Valkyrie). Not a lore accurate gamer because 1. he has a girlfriend and 2. he enjoys IRL sport as much as esports. Nevertheless, he is the highest level in League of Legends of Big Chungus esports.
-                </p>
-            </div>
-
-            <!-- Player card default -->
-            <div class="player-card">
-                <div class="profile-pic">
-                    <img src="images/pics/default.png" height="150" width="150" />
-                </div>
-                <p class="player-name">Ludwig</p>
-                <p class="player-status">New Chungus</p>
-                <p class="player-description">
-                    Ludwig is one of the new members who joined BigChungus esports in 2024!
-                </p>
-            </div>
-
-            <!-- Player card default -->
-            <div class="player-card">
-                <div class="profile-pic">
-                    <img src="images/pics/default.png" height="150" width="150" />
-                </div>
-                <p class="player-name">marija</p>
-                <p class="player-status"></p>
-                <p class="player-description">
-                    Beware, she might analyze your psyche to pieces. Weaknesses: Horror movies and Cheesecake
-                </p>
-            </div>
-
-            <!-- Player card default -->
-            <div class="player-card">
-                <div class="profile-pic">
-                    <img src="images/pics/default.png" height="150" width="150" />
-                </div>
-                <p class="player-name">Marsxhmallow</p>
-                <p class="player-status">New Chungus</p>
-                <p class="player-description">
-                    Marsxhmallow is one of the new members who joined BigChungus esports in 2024!
-                </p>
-            </div>
-
-            <!-- Player card default -->
-            <div class="player-card">
-                <div class="profile-pic">
-                    <img src="images/pics/default.png" height="150" width="150" />
-                </div>
-                <p class="player-name">TheNoNameHunter</p>
-                <p class="player-status">Vampire chungus</p>
-                <p class="player-description">
-                    Dont ask him what his gamer tag was before. Loves the taste of metal. Monday left him broken. Untiltable in League of Legends.
-                </p>
-            </div>
-
-            <!-- Player card default -->
-            <div class="player-card">
-                <div class="profile-pic">
-                    <img class="profile-pic-main" src="images/pics/pixx3l.png" height="150" width="150" />
-                    <img class="profile-pic-alt" src="images/pics/pixx3l-alt.png" height="150" width="150" />
-                </div>
-                <p class="player-name">PIXX3L</p>
-                <p class="player-status">Chung:uwu:s :3</p>
-                <p class="player-description">
-                    Biggest beer lover at the lan. Looks suspiciously hot in a crop top. Literally IRL Nyan cat. Uses ";-;" unironically. Hit him up if you need someone to donate blood with.
-                </p>
-            </div>
-
-            <!-- Player card default -->
-            <div class="player-card">
-                <div class="profile-pic">
-                    <img src="images/pics/default.png" height="150" width="150" />
-                </div>
-                <p class="player-name">Skmag9</p>
-                <p class="player-status">Father chungus</p>
-                <p class="player-description">
-                    As dad of 2 cats and since he kinda adopted TheTamoon he's a Daddy in many ways. if you want to buy some tech just Mention it to him and he'll compare the shit outta it
-                </p>
-            </div>
-
-            <!-- Player card default -->
-            <div class="player-card">
-                <div class="profile-pic">
-                    <img src="images/pics/default.png" height="150" width="150" />
-                </div>
-                <p class="player-name">Skynear</p>
-                <p class="player-status">New Chungus</p>
-                <p class="player-description">
-                    Skynear is one of the new members who joined BigChungus esports in 2024!
-                </p>
-            </div>
-
-            <!-- Player card default -->
-            <div class="player-card">
-                <div class="profile-pic">
-                    <img src="images/pics/default.png" height="150" width="150" />
-                </div>
-                <p class="player-name">The Tamoon</p>
-                <p class="player-status">Sleepn't chungus</p>
-                <p class="player-description">
-                    He's so cracked he doesn't even need a bed at lan. Owner of a world famous nightcore account.
-                </p>
-            </div>
-
-            <!-- Player card default -->
-            <div class="player-card">
-                <div class="profile-pic">
-                    <img src="images/pics/trainspotter.png" height="150" width="150" />
-                </div>
-                <p class="player-name">Trainspotter</p>
-                <p class="player-status">RABe 523 012 chungus</p>
-                <p class="player-description">
-                    Spots enemy players faster than he spots trains. Best geoguessr swiss train stations map player of the world (not anymore). Why isn't Train simulator an esports yet? Anyways we're sure he'd crush it!
-                </p>
-            </div>
-
-            <!-- Player card default -->
-            <div class="player-card">
-                <div class="profile-pic">
-                    <img src="images/pics/default.png" height="150" width="150" />
-                </div>
-                <p class="player-name">TrustyNF</p>
-                <p class="player-status">New Chungus</p>
-                <p class="player-description">
-                    TrustyNF, also known as Cab_Driva_101, is one of the new members who joined BigChungus esports in 2024!
-                </p>
-            </div>
-
-            <!-- Player card default -->
-            <div class="player-card">
-                <div class="profile-pic">
-                    <img src="images/pics/default.png" height="150" width="150" />
-                </div>
-                <p class="player-name">TSF Bullet</p>
-                <p class="player-status">Wholesome chungus</p>
-                <p class="player-description">
-                    Type of person to take a blanket to a party. Will ask you about your favourite operating system and if your mom is doing fine. Don't start an IT-related conversation (especially Linux), if you don't have time.
-                </p>
-            </div>
-
-            <!-- Player card default -->
-            <div class="player-card">
-                <div class="profile-pic">
-                    <img src="images/pics/default.png" height="150" width="150" />
-                </div>
-                <p class="player-name">Ultraflipper</p>
-                <p class="player-status">Ryan Gosling chungus</p>
-                <p class="player-description">
-                    Actually plays for "Unicorn irgendöppis" instead of Bigchungus esports in the tourneys. Fly-enthusiast but in a different way than Kosekans.
-                </p>
-            </div>
-
-            <!-- Player card default -->
-            <div class="player-card">
-                <div class="profile-pic">
-                    <img src="images/pics/default.png" height="150" width="150" />
-                </div>
-                <p class="player-name">Zert</p>
-                <p class="player-status">New Chungus</p>
-                <p class="player-description">
-                    Zert is one of the new members who joined BigChungus esports in 2024!
-                </p>
-            </div>
+        <!-- Player card default -->
+        <div class="player-card">
+          <div class="profile-pic">
+            <img src="images/pics/tlex.png" height="150" width="150" />
+          </div>
+          <p class="player-name">T-Lex</p>
+          <p class="player-status">IRL heal chungus</p>
+          <p class="player-description">
+            Never stops on a loss, even when the game is Baldur's Gate 3. After
+            a long night of gaming, she likes her breakfast fresh from the 3D
+            printer. She also protocols all the BigChungus meetings, as chaotic
+            as they may be.
+          </p>
         </div>
+
+        <!-- Player card default -->
+        <div class="player-card">
+          <div class="profile-pic">
+            <img src="images/pics/kochchefpablo.png" height="150" width="150" />
+          </div>
+          <p class="player-name">Kochchef Pablo</p>
+          <p class="player-status">Cook chungus / gossip chungus</p>
+          <p class="player-description">
+            Makes sure Elibeli is happy by cooking for him. Also ask him for
+            anything, he won't say no. Be wary, our cook loves (spilling) tea ;)
+            His excel sheets have made people horny before.
+          </p>
+        </div>
+
+        <!-- Player card default -->
+        <div class="player-card">
+          <div class="profile-pic">
+            <img
+              class="profile-pic-main"
+              src="images/pics/gnoblin.png"
+              height="150"
+              width="150"
+            />
+            <img
+              class="profile-pic-alt"
+              src="images/pics/gnoblin-alt.png"
+              height="150"
+              width="150"
+            />
+          </div>
+          <p class="player-name">Gnoblin</p>
+          <p class="player-status">Owns all the chungi</p>
+          <p class="player-description">
+            Most quiet person at every lan. Carries T1gers Jägermeister and
+            sometimes people on her back. IRL Goblin. Loves Kochchef Pablo's
+            Quaestorate documents. Best flunky ball player.
+          </p>
+        </div>
+
+        <!-- Player card default -->
+        <div class="player-card">
+          <div class="profile-pic">
+            <img src="images/pics/elibeli.png" height="150" width="150" />
+          </div>
+          <p class="player-name">Elibeli</p>
+          <p class="player-status">Good chungus</p>
+          <p class="player-description">
+            When angry, give him snacks. Low bloodsugar is his worst enemy. Also
+            you'll easily recognize him at the lan playing No mans sky. His PC
+            has a built-in beverage cooling system.
+          </p>
+        </div>
+
+        <!-- Player card with 2 pictures-->
+        <div class="player-card">
+          <div class="profile-pic">
+            <img
+              class="profile-pic-main"
+              src="images/pics/kosekans.png"
+              height="150"
+              width="150"
+            />
+            <img
+              class="profile-pic-alt"
+              src="images/pics/kosekans-alt.png"
+              height="150"
+              width="150"
+            />
+          </div>
+          <p class="player-name">Kosekans</p>
+          <p class="player-status">Chungus of the flies</p>
+          <p class="player-description">
+            Ask him for a velo, although you might be surprised if it doesn't
+            have wheels. Don't scare him, or your ears may fall off. Never ask
+            him about his Fajita filling at the founding assembly.
+          </p>
+        </div>
+      </div>
+      <div class="container p-3 bg-dark mb-0 pb-0 mt-0 text-center">
+        <h2 class="mb-4">Gamers</h2>
+
+        <!-- Player card default -->
+        <div class="player-card">
+          <div class="profile-pic">
+            <img src="images/pics/default.png" height="150" width="150" />
+          </div>
+          <p class="player-name">Akiramiku</p>
+          <p class="player-status">New Chungus</p>
+          <p class="player-description">
+            Akiramiku is one of the new members who joined BigChungus esports in
+            2024!
+          </p>
+        </div>
+
+        <!-- Player card default -->
+        <div class="player-card">
+          <div class="profile-pic">
+            <img src="images/pics/default.png" height="150" width="150" />
+          </div>
+          <p class="player-name">AnnaLostInSpace</p>
+          <p class="player-status">New Chungus</p>
+          <p class="player-description">
+            AnnaLostInSpace is one of the new members who joined BigChungus
+            esports in 2024!
+          </p>
+        </div>
+
+        <!-- Player card default -->
+        <div class="player-card">
+          <div class="profile-pic">
+            <img src="images/pics/default.png" height="150" width="150" />
+          </div>
+          <p class="player-name">Chigi</p>
+          <p class="player-status">New Chungus</p>
+          <p class="player-description">
+            Chigi is one of the new members who joined BigChungus esports in
+            2024!
+          </p>
+        </div>
+
+        <!-- Player card default -->
+        <div class="player-card">
+          <div class="profile-pic">
+            <img src="images/pics/default.png" height="150" width="150" />
+          </div>
+          <p class="player-name">Dinschki</p>
+          <p class="player-status">Ball chungus</p>
+          <p class="player-description">
+            By far the most experienced gamer on our roster. Don't drink café de
+            Paris if she offers it to you!
+          </p>
+        </div>
+
+        <!-- Player card default -->
+        <div class="player-card">
+          <div class="profile-pic">
+            <img src="images/pics/default.png" height="150" width="150" />
+          </div>
+          <p class="player-name">Endergnar</p>
+          <p class="player-status">Horse chungus</p>
+          <p class="player-description">
+            Best known for hacking his schools website. Has never been to a lan
+            but we love him anyways.
+          </p>
+        </div>
+
+        <!-- Player card default -->
+        <div class="player-card">
+          <div class="profile-pic">
+            <img src="images/pics/default.png" height="150" width="150" />
+          </div>
+          <p class="player-name">Ewokli</p>
+          <p class="player-status">New Chungus</p>
+          <p class="player-description">
+            Ewokli is one of the new members who joined BigChungus esports in
+            2024!
+          </p>
+        </div>
+
+        <!-- Player card with 2 pictures-->
+        <div class="player-card">
+          <div class="profile-pic">
+            <img
+              class="profile-pic-main"
+              src="images/pics/hideonbueschli.png"
+              height="150"
+              width="150"
+            />
+            <img
+              class="profile-pic-alt"
+              src="images/pics/hideonbueschli-alt.png"
+              height="150"
+              width="150"
+            />
+          </div>
+          <p class="player-name">Hide on Büschli</p>
+          <p class="player-status">Ginger chungus</p>
+          <p class="player-description">
+            Biggest enjoyer of spicy food. He has a big snake ;) (her name is
+            Valkyrie). Not a lore accurate gamer because 1. he has a girlfriend
+            and 2. he enjoys IRL sport as much as esports. Nevertheless, he is
+            the highest level in League of Legends of Big Chungus esports.
+          </p>
+        </div>
+
+        <!-- Player card default -->
+        <div class="player-card">
+          <div class="profile-pic">
+            <img src="images/pics/default.png" height="150" width="150" />
+          </div>
+          <p class="player-name">Ludwig</p>
+          <p class="player-status">New Chungus</p>
+          <p class="player-description">
+            Ludwig is one of the new members who joined BigChungus esports in
+            2024!
+          </p>
+        </div>
+
+        <!-- Player card default -->
+        <div class="player-card">
+          <div class="profile-pic">
+            <img src="images/pics/default.png" height="150" width="150" />
+          </div>
+          <p class="player-name">marija</p>
+          <p class="player-status"></p>
+          <p class="player-description">
+            Beware, she might analyze your psyche to pieces. Weaknesses: Horror
+            movies and Cheesecake
+          </p>
+        </div>
+
+        <!-- Player card default -->
+        <div class="player-card">
+          <div class="profile-pic">
+            <img src="images/pics/default.png" height="150" width="150" />
+          </div>
+          <p class="player-name">Marsxhmallow</p>
+          <p class="player-status">New Chungus</p>
+          <p class="player-description">
+            Marsxhmallow is one of the new members who joined BigChungus esports
+            in 2024!
+          </p>
+        </div>
+
+        <!-- Player card default -->
+        <div class="player-card">
+          <div class="profile-pic">
+            <img src="images/pics/default.png" height="150" width="150" />
+          </div>
+          <p class="player-name">TheNoNameHunter</p>
+          <p class="player-status">Vampire chungus</p>
+          <p class="player-description">
+            Dont ask him what his gamer tag was before. Loves the taste of
+            metal. Monday left him broken. Untiltable in League of Legends.
+          </p>
+        </div>
+
+        <!-- Player card default -->
+        <div class="player-card">
+          <div class="profile-pic">
+            <img
+              class="profile-pic-main"
+              src="images/pics/pixx3l.png"
+              height="150"
+              width="150"
+            />
+            <img
+              class="profile-pic-alt"
+              src="images/pics/pixx3l-alt.png"
+              height="150"
+              width="150"
+            />
+          </div>
+          <p class="player-name">PIXX3L</p>
+          <p class="player-status">Chung:uwu:s :3</p>
+          <p class="player-description">
+            Biggest beer lover at the lan. Looks suspiciously hot in a crop top.
+            Literally IRL Nyan cat. Uses ";-;" unironically. Hit him up if you
+            need someone to donate blood with.
+          </p>
+        </div>
+
+        <!-- Player card default -->
+        <div class="player-card">
+          <div class="profile-pic">
+            <img src="images/pics/default.png" height="150" width="150" />
+          </div>
+          <p class="player-name">Skmag9</p>
+          <p class="player-status">Father chungus</p>
+          <p class="player-description">
+            As dad of 2 cats and since he kinda adopted TheTamoon he's a Daddy
+            in many ways. if you want to buy some tech just Mention it to him
+            and he'll compare the shit outta it
+          </p>
+        </div>
+
+        <!-- Player card default -->
+        <div class="player-card">
+          <div class="profile-pic">
+            <img src="images/pics/default.png" height="150" width="150" />
+          </div>
+          <p class="player-name">Skynear</p>
+          <p class="player-status">New Chungus</p>
+          <p class="player-description">
+            Skynear is one of the new members who joined BigChungus esports in
+            2024!
+          </p>
+        </div>
+
+        <!-- Player card default -->
+        <div class="player-card">
+          <div class="profile-pic">
+            <img src="images/pics/default.png" height="150" width="150" />
+          </div>
+          <p class="player-name">The Tamoon</p>
+          <p class="player-status">Sleepn't chungus</p>
+          <p class="player-description">
+            He's so cracked he doesn't even need a bed at lan. Owner of a world
+            famous nightcore account.
+          </p>
+        </div>
+
+        <!-- Player card default -->
+        <div class="player-card">
+          <div class="profile-pic">
+            <img src="images/pics/trainspotter.png" height="150" width="150" />
+          </div>
+          <p class="player-name">Trainspotter</p>
+          <p class="player-status">RABe 523 012 chungus</p>
+          <p class="player-description">
+            Spots enemy players faster than he spots trains. Best geoguessr
+            swiss train stations map player of the world (not anymore). Why
+            isn't Train simulator an esports yet? Anyways we're sure he'd crush
+            it!
+          </p>
+        </div>
+
+        <!-- Player card default -->
+        <div class="player-card">
+          <div class="profile-pic">
+            <img src="images/pics/default.png" height="150" width="150" />
+          </div>
+          <p class="player-name">TrustyNF</p>
+          <p class="player-status">New Chungus</p>
+          <p class="player-description">
+            TrustyNF, also known as Cab_Driva_101, is one of the new members who
+            joined BigChungus esports in 2024!
+          </p>
+        </div>
+
+        <!-- Player card default -->
+        <div class="player-card">
+          <div class="profile-pic">
+            <img src="images/pics/default.png" height="150" width="150" />
+          </div>
+          <p class="player-name">TSF Bullet</p>
+          <p class="player-status">Wholesome chungus</p>
+          <p class="player-description">
+            Type of person to take a blanket to a party. Will ask you about your
+            favourite operating system and if your mom is doing fine. Don't
+            start an IT-related conversation (especially Linux), if you don't
+            have time.
+          </p>
+        </div>
+
+        <!-- Player card default -->
+        <div class="player-card">
+          <div class="profile-pic">
+            <img src="images/pics/default.png" height="150" width="150" />
+          </div>
+          <p class="player-name">Ultraflipper</p>
+          <p class="player-status">Ryan Gosling chungus</p>
+          <p class="player-description">
+            Actually plays for "Unicorn irgendöppis" instead of Bigchungus
+            esports in the tourneys. Fly-enthusiast but in a different way than
+            Kosekans.
+          </p>
+        </div>
+
+        <!-- Player card default -->
+        <div class="player-card">
+          <div class="profile-pic">
+            <img src="images/pics/default.png" height="150" width="150" />
+          </div>
+          <p class="player-name">Zert</p>
+          <p class="player-status">New Chungus</p>
+          <p class="player-description">
+            Zert is one of the new members who joined BigChungus esports in
+            2024!
+          </p>
+        </div>
+      </div>
     </div>
     <div class="container bg-dark main-end"></div>
 
     <!-- Footer -->
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark footer justify-content-center">
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link" href="mailto:info@bigchungus.ch">Mail</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="https://discord.gg/g7x33YbzK8" target="_blank">Discord</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="https://www.instagram.com/bigchungus_esports" target="_blank">Instagram</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="impressum.html">Impressum</a>
-            </li>
-        </ul>
+    <nav
+      class="navbar navbar-expand-sm bg-dark navbar-dark footer justify-content-center"
+    >
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="mailto:info@bigchungus.ch">Mail</a>
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            href="https://discord.gg/g7x33YbzK8"
+            target="_blank"
+            >Discord</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            href="https://www.instagram.com/bigchungus_esports"
+            target="_blank"
+            >Instagram</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="impressum.html">Impressum</a>
+        </li>
+      </ul>
     </nav>
-</body>
+  </body>
 </html>

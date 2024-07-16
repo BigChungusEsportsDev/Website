@@ -42,6 +42,10 @@ h1 {
     font-family: "Press Start 2P", Sans-serif;
 }
 
+.disclaimer {
+    border: 2px solid #ff0000
+}
+
 .text-pixel {
     font-family: "Press Start 2P", Sans-serif;
     font-size: 10pt;
