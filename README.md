@@ -19,6 +19,13 @@ docker compose up
 Once you open `bigchungus.test` you should see the current version.
 You'll have to reload the page to get the latest version, there is NO auto refreshing
 
+To be ignored by statistics add this to your LocalStorage for the `bigchungus.test` page
+
+``` text
+key: umami.disabled
+value: 1
+```
+
 ## Deploy
 
 To build and deploy, you must first [install Docker](https://docs.docker.com/engine/install/)
