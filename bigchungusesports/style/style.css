@@ -283,6 +283,13 @@ h1 {
     margin: 20px;
 }
 
+.legend {
+    display: inline-grid;
+    grid-template-columns: auto 1fr;
+    padding: 20px;
+    margin: 20px;
+}
+
 .seats {
     margin: 0;
     padding: 0;
@@ -309,4 +316,38 @@ h1 {
 
 .seats li[data-level="2"] {
     background-color: #FF008C;
+}
+
+.seats li[data-level="3"] {
+    background-color: #8C00FF;
+}
+
+.legend-seats {
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    grid-gap: var(--square-gap);
+    grid-template-columns: repeat(19, var(--square-size));
+    grid-auto-flow: row;
+    grid-auto-rows: var(--square-size);
+}
+
+.legend-seats li {
+    list-style-type:none;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 5px;
+    background-color: transparent;
+}
+
+.legend-seats li[data-level="1"] {
+    background-color: #ebedf0;
+}
+
+.legend-seats li[data-level="2"] {
+    background-color: #FF008C;
+}
+
+.legend-seats li[data-level="3"] {
+    background-color: #8C00FF;
 }
