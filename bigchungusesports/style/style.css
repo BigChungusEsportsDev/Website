@@ -321,6 +321,11 @@ h1 {
     background-color: #8C00FF;
 }
 
+.seats li[data-level="4"] {
+    background-color: #ffff00;
+}
+
+
 .legend-seats {
     margin: 0;
     padding: 0;
@@ -351,3 +356,5 @@ h1 {
 .legend-seats li[data-level="3"] {
     background-color: #8C00FF;
 }
+.legend-seats li[data-level="4"] {
+    background-color: #ffff00;
