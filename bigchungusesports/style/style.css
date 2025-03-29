@@ -99,7 +99,16 @@ h1 {
 
 .sponsors-item {
     text-align: center;
+    max-width: 100%; /* ensures images never overflow their container */
+    height: auto
 }
+
+.main-sponsors .sponsors-item img {
+  max-width: 600px;
+}
+
+.other-sponsors .sponsors-item img {
+  max-width: 400px;
 
 .sponsors-item img {
     height: auto;
